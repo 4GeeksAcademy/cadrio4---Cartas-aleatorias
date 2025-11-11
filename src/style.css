@@ -1,5 +1,40 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(0, 134, 58);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
+
+.card {
+    background: white;
+    font-size: 100px;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 30px;
+    justify-content: space-between;
+
+
+}
+
+#top-suit{
+    top: 20px;
+    left: 20px;
+
+}
+
+#bottom-suit{
+    bottom: 20px;
+    right: 20px;
+    rotate: 180deg;
+}
+
+#number{
+    display: flex;
+    justify-content: center;
+}
+
+
+
